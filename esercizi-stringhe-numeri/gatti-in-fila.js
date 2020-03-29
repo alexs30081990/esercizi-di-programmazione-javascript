@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 5;
+var Infile = 2;
+
+var Totfile = Math.ceil(cats/Infile);
+var catsMan= (Totfile*Infile-cats);
+
+console.log(`${cats} gatti in fila per ${Infile} si unirono compatti in ${Totfile} file. Nell'ultima fila rimase ${catsMan} posto per gatti disponibile`);
